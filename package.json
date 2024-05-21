@@ -1,0 +1,44 @@
+{
+  "name": "js-retro-game",
+  "version": "1.0.0",
+  "description": "Двухмерная игра в стиле фэнтези, где игроку предстоит выставлять своих персонажей против персонажей нечисти.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoq/js-retro-game.git"
+  },
+  "author": "Konstantin Beloglazov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoq/js-retro-game/issues"
+  },
+  "homepage": "https://github.com/ajoq/js-retro-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-loader": "^8.2.4",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
